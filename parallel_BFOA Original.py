@@ -1,9 +1,10 @@
 from copy import copy
 from multiprocessing import Manager, Pool
 import time
-from bacteria import bacteria
+from bacteria_original import bacteria
 import numpy
 import copy
+import pandas
 
 from fastaReader import fastaReader
 
